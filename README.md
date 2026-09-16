@@ -99,11 +99,11 @@ kkn-desa-wawasan/
 Website ini siap dideploy secara otomatis menggunakan **GitHub Pages** dan **GitHub Actions**:
 1. Setiap commit yang di-*push* ke branch `main` akan secara otomatis memicu proses *checkout*, instalasi dependensi, kompilasi build produksi, dan publikasi ke GitHub Pages.
 2. Routing aplikasi menggunakan `HashRouter` untuk menjamin seluruh rute internal (`/#/profil`, `/#/berita`, `/#/layanan-surat`, dsb.) tidak mengalami error 404 saat halaman dimuat ulang (*refresh*) di server statis GitHub Pages.
-3. Base path Vite telah disesuaikan untuk format repositori: `/desa-wawasan/`.
+3. Base path Vite telah disesuaikan untuk format repositori: `/WebDesaWawasan/`.
 
 URL Akses Production:
 ```text
-https://USERNAME.github.io/desa-wawasan/
+https://nazky567.github.io/WebDesaWawasan/
 ```
 
 ---
@@ -140,8 +140,8 @@ Tangkapan layar dokumentasi antarmuka website disimpan dalam folder `docs/screen
 
 1. **Clone repositori**:
    ```bash
-   git clone https://github.com/USERNAME/desa-wawasan.git
-   cd desa-wawasan
+   git clone https://github.com/nazky567/WebDesaWawasan.git
+   cd WebDesaWawasan
    ```
 
 2. **Install dependensi**:
