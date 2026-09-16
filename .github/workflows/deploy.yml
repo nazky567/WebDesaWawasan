@@ -40,9 +40,6 @@ jobs:
           VITE_CHATBASE_CHATBOT_ID: ${{ secrets.VITE_CHATBASE_CHATBOT_ID || 'tJe9tB1UKZBesihEf06sz' }}
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
